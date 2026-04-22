@@ -720,7 +720,7 @@ li .byline a.comment_replier {
 }
 span.new_user, a.new_user,
 li .byline a.new_user {
-	#color: var(--color-fg-affirmative);
+	color: var(--color-fg-affirmative);
 }
 span.inactive_user, a.inactive_user,
 li .byline a.inactive_user,
@@ -1036,6 +1036,7 @@ div#story_box #story_tags {
 	width: 624px;
 }
 div#story_box textarea {
+	height: 2rem;
 	width: 600px;
 }
 
